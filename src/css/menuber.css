@@ -1,0 +1,39 @@
+@charset 'utf-8';
+
+.menuber{
+  width: 300px;
+  height: 100vh;
+  background-color:rgb(128, 54, 66);
+  position:fixed;
+  top: 140px;
+  left: 0;
+}
+
+.menuberFont{
+  height: 140px;
+  width: 300px;
+  background: rgb(208, 87, 107);
+  box-sizing: border-box;
+  box-shadow: 3px;
+  position:fixed;
+  top:0;
+  left:0;
+}
+
+.hospiPhotoImage{
+  width: 200px;
+  display:block;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.underFont{
+  font-size:15px;
+  color:white;
+  margin-top:0px;
+  margin-left: 20px;
+}
+
+p.underFont{
+  font-size: 9px;
+}
