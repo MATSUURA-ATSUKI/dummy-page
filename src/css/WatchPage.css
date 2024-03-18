@@ -1,0 +1,364 @@
+.calenderBody{
+  height: calc(100vh - 60px);
+  width: calc(100vw - 300px);
+}
+
+.watchContent{
+  width: calc(100vw - 300px);
+  height: calc(100vh - 60px);
+  position: fixed;
+  top: 60px;
+  left: 300px;
+}
+
+.dayCall{
+  width: 100%;
+  height: 110px;
+  background-image:url(../image/spring.jpg);
+  background-color: rgba(0,0,0,.3);
+  background-size: calc(100% - 300px);
+  background-position: center center;
+  background-blend-mode:hue;
+}
+
+.dateConection{
+  display:flex;
+}
+
+/* 左側 */
+
+.NarrowDownContainer{
+  width: 350px;
+  height: 110px;
+}
+.NarrowDownContainerInTop{
+  display:flex;
+  width: 350px;
+  height: 55px;
+}
+.NarrowDownContainerInBottom{
+  display:flex;
+  width: 350px;
+  height: 55px;
+  box-sizing: border-box;
+}
+
+
+.content{
+  margin-top:16px;
+  margin-left: 10px;
+}
+
+.material-icons.content{
+  margin-top: 24px;
+  margin-left: 10px;
+}
+
+.NarrowDownContainerInBottom .material-icons{
+  margin-left: 10px;
+  margin-top: 8px;
+}
+
+
+
+.material-icons{
+  color:white;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.NarrowDown{
+  width: 120px;
+  height: 36px;
+  /* background: red; */
+  border-radius: 6px;
+  border: 1px solid white;
+  text-align: center;
+  line-height: 36px;
+  color: white;
+  font-weight: bold;
+}
+
+.NarrowDown:hover{
+  background: rgba(255,255,255,0.2);
+}
+
+.NarrowDown > .material-icons{
+  font-size: 20px;
+  font-weight: normal;
+  margin-right: 4px;
+}
+
+.sort{
+  width: 100px;
+  height: 36px;
+  /* background: red; */
+  border-radius: 6px;
+  border: 1px solid rgba(255,255,255,.5);
+  text-align: center;
+  line-height: 36px;
+  color: white;
+  font-weight: bold;
+}
+
+.sort:hover{
+  border: 1px solid white;
+}
+
+/* 真ん中 */
+
+.dayCallContainer{
+  display:flex;
+  padding: 30px;
+  padding-top: 40px;
+}
+
+.detailedSchedule{
+  font-weight: bold;
+  color:white;
+  font-size: 20px;
+}
+
+.dayCallContainer .material-icons{
+  position:relative;
+  top:4px;
+  left:0;
+}
+
+/* 右側 */
+
+.materialContainer{
+  margin-left:auto;
+  width: 350px;
+  height: 110px;
+}
+
+.materialContainer > .material-icons{
+  margin-left: 15px;
+  font-size: 32px;
+  margin-top: 20px;
+}
+
+.search{
+  width: 300px;
+  height: 40px;
+  /* background: red; */
+  margin-top: 4px;
+  margin-left: 20px;
+  border-radius: 12px;
+  border: 3px solid white;
+  line-height: 40px;
+  display:flex;
+  
+}
+
+.search > .material-icons{
+  margin-left: 12px;
+  margin-right: 4px;
+  margin-top: 8px;
+}
+
+.search input{
+  padding: 0;
+  width: 200px;
+  height:30px;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+
+.searchOn{
+  width: 50px;
+  height: 30px;
+  background: rgba(255,255,255,.8);
+  line-height: 28px;
+  text-align: center;
+  margin-top: 5px;
+  border: 1px solid gray;
+  box-sizing: border-box;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.searchOn:hover{
+  background: rgba(255,255,255,1)
+}
+
+
+
+
+/* カレンダー */
+
+.calenderInfo{
+  /* background: red; */
+  width: calc(100%-300px);
+}
+
+.CalendarDetails{
+  width: 120px;
+}
+
+.calenderDay{
+  width: 120px;
+  height: 45px;
+  background: rgb(208, 87, 107);
+  border-top: 1px solid gray;
+  box-sizing: border-box;
+  line-height: 45px;
+  text-align:center;
+  color: white;
+}
+
+.hour{
+  width: 120px;
+  height: 45px;
+  line-height: 45px;
+  box-sizing: border-box;
+  text-align:center;
+  background: rgb(208, 87, 107);
+  border-top: 1px solid gray;
+  color: white;
+  box-sizing: border-box;
+}
+
+.label{
+  background: rgb(208, 87, 107);
+  width: 120px;
+  height: 30px;
+  line-height: 30px;
+  border-top:1px solid gray;
+  text-align: center;
+  color: white;
+  box-sizing:border-box;
+}
+
+.split{
+  background: rgb(208, 87, 107);
+  width: 120px;
+  height: 30px;
+  line-height: 30px;
+  border-top: 1px solid gray;
+  text-align: center;
+  color:white;
+  box-sizing:border-box;
+}
+
+.standard{
+  position:fixed;
+  left: 420px;
+  top:170px;
+}
+
+.teams{
+  width: calc(100vw - 300px);
+  height: calc(100vh - 320px);
+  position:fixed;
+  top: 320px;
+  left: 300px;
+  overflow-y:scroll;
+}
+
+
+
+
+
+.calenderDayBody{
+  width:calc(100vw - 420px);
+  height: 45px;
+  line-height: 45px;
+  text-align:center;
+  font-weight: bold;
+  box-sizing: border-box;
+  border-top: 1px solid gray;
+}
+
+.calenderHourBody{
+  width:calc(100vw - 420px);
+  height: 45px;
+  line-height: 45px;
+  text-align:center;
+  font-weight: bold;
+  box-sizing: border-box;
+  border-top: 1px solid gray;
+}
+
+.labelBody{
+  width: calc(100vw - 420px);
+  height: 30px;
+  border-top: 1px solid gray;
+  box-sizing: border-box;
+}
+
+.splitBody{
+  width: calc(100vw - 420px);
+  height: 30px;
+  border-top: 1px solid gray;
+  box-sizing: border-box;
+}
+
+.calenderHourBody{
+  display:flex;
+}
+
+.calenderHourDiv{
+  width: calc(100vw / 24);
+  height: 45px;
+  border-right: 1px solid gray;
+}
+
+.splitBody{
+  width: calc(100vw - 42px);
+  display:flex;
+}
+
+.splitDiv{
+  width: calc((100vw - 420px) / 24);
+  height: 30px;
+  border-right: 1px solid gray;
+  border-bottom: 1px solid gray;
+  box-sizing: border-box;
+  line-height: 30px;
+  text-align: center;
+}
+
+
+
+.calenderTeamName{
+  width: 120px;
+  height: 55px;
+  box-sizing:border-box;
+  color:black;
+  border-top:1px solid gray;
+  border-right: 1px solid gray;
+  line-height: 55px;
+  font-weight: normal;
+}
+
+
+.teamNameBody{
+  display:flex;
+}
+
+.teamDiv{
+  width: calc((100vw - 420PX) / 24);
+  height: 55px;
+  border-right: 1px solid gray;
+  border-top: 1px solid gray;
+  box-sizing: border-box;
+}
+.teamNameBody.last .teamDiv{
+  border-bottom:1px solid gray;
+}
+
+.teamcalender{
+  display:flex;
+}
+
+.teamcalender.on{
+  background: rgba(255,255,160,1);
+}
+
+.calenderBodyContainer{
+  overflow-y:scroll;
+}
+
+

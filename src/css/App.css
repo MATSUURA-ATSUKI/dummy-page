@@ -1,0 +1,76 @@
+@charset 'utf-8';
+
+.body{
+  margin: none;
+  padding: none;
+}
+
+li{
+  list-style: none;
+  margin: none;
+  padding: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+hr{
+  margin: 0;
+  padding: 0;
+  height: 0;
+  border:0;
+}
+
+/* topscontent */
+
+.topsContent{
+  width: calc(100% - 300px);
+  height: 100vh;
+  /* background:red; */
+  position: fixed;
+  left: 300px;
+  top:60px;
+  overflow-y:scroll;
+}
+
+.topsBt{
+  width: 150px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  box-sizing: border-box;
+  border:1px solid red;
+  font-size: 12px;
+  border-radius: 4px;
+  color:red;
+}
+
+.topsBt:hover{
+  background: rgba(255,0,0,.1);
+  border:2px red solid;
+}
+
+.topsBt.toGoShift{
+  margin-left: 30px;
+}
+
+.topsBt.toMore{
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 100px;
+
+}
+
+.printName{
+  margin-left: 20px;
+}
+
+.countNumber{
+  margin-left: 20px;
+}

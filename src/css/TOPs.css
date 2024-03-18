@@ -1,0 +1,37 @@
+.topsContentBox{
+  display:flex;
+  margin-top: 20px;
+}
+.shift{
+  width: 80px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  background: skyblue;
+  border-radius: 8px;
+  font-size: 12px;
+  color:white;
+  margin: 10px;
+}
+
+.changeShift{
+  width: 80px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  background:yellowgreen;
+  border-radius: 8px;
+  font-size: 12px;
+  color:white;
+  margin: 10px;
+}
+
+.text {
+  margin-top: 5px;
+  font-size:12px;
+  color:brown;
+}
+.day{
+  font-size: 12px;
+  color:rgba(0,0,0,.5);
+}

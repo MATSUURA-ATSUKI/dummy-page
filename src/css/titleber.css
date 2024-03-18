@@ -1,0 +1,43 @@
+@charset 'utf-8';
+.ber{
+  width: calc( 100% - 300px );
+  height: 60px;
+  position: fixed;
+  top: 0;
+  left: 300px;
+  border: 1px solid rgb(0,0,0,.2);
+  line-height: 60px;
+  box-sizing: border-box;
+  padding-left: 30px;
+  display:flex;
+}
+
+.titleberPhrase{
+  font-weight: bold;
+}
+
+.teamMark{
+  display:block;
+  width: 20px;
+  height: 20px;
+}
+
+.teamMark img{
+  width: 20px;
+  height: 20px;
+  vertical-align:sub;
+}
+
+.teamName{
+  font-size: 14px;
+  font-weight: bold;
+  width: 200px;
+  margin-left: auto;
+  border-left: 1px solid rgba(0,0,0,.1);
+  padding-left: 10px;
+  display:flex;
+}
+
+.teamName > div{
+  margin-left: 10px;
+}
