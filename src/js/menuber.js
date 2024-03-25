@@ -3,6 +3,7 @@ import img from '../image/logo_white.png';
 import Titleber from './titleber';
 import TOPspage from './TOPspage';
 import WatchPage from './watchPage';
+import AssemblePage from './assemble';
 
 
 class Menuber extends React.Component{
@@ -147,6 +148,7 @@ class Menuber extends React.Component{
         <Titleber title ={this.state.titleName}/>
         <TOPspage topsPageOn = {this.state.topsOn}/>
         <WatchPage watchPageOn = {this.state.watchOn}/>
+        <AssemblePage assemblePageOn ={this.state.assembleOn}/>
       </div>
     );
   }

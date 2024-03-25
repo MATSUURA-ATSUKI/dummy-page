@@ -3,6 +3,7 @@ import './css/menuber.css';
 import './css/titleber.css';
 import './css/TOPs.css';
 import './css/WatchPage.css'
+import './css/assemble.css'
 
 import Menuber from './js/menuber';
 

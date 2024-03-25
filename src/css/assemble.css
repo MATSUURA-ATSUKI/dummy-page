@@ -1,0 +1,201 @@
+.assembleBackground{
+  width: calc(100vw - 300px);
+  height: calc(100vh - 60px);
+  position:fixed;
+  top: 60px;
+  left: 300px;
+  box-sizing: border-box;
+  overflow-y:scroll;
+  
+}
+
+.assembleBackground .material-icons{
+  color: black;
+}
+
+.assembleHeader{
+  width: calc(100vw - 300px);
+  height: 50px;
+  display:flex;
+  background: rgba(133, 133, 133, .2);
+  border-top:1px solid rgb(133,133,133);
+}
+
+.assembleSearch{
+  width: 25%;
+  border: 1px solid black;
+  border-radius: 3px;
+  margin-left: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  box-sizing: border-box;
+}
+
+.assembleHeader .material-icons{
+  font-size: 35px;
+  margin-left: 10px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+
+.assembleSearchInput{
+  border:0;
+  height: 35px;
+  width: 80%;
+  margin-left: 5px;
+  background: rgba(133, 133, 133,0)
+}
+
+.assembleBodyTitle{
+  width: 100%;
+  height:50px;
+  display:flex;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+
+.assembleId{
+  margin-left: 20px;
+  height: 40px;
+  width: 300px;
+  box-sizing: border-box;
+  line-height: 40px;
+  margin-top:auto;
+  margin-bottom: auto;
+
+  /* background:red; */
+}
+
+.assembleDuring{
+  height: 40px;
+  width: 220px;
+  box-sizing: border-box;
+  line-height: 40px;
+  margin-top:auto;
+  margin-bottom: auto;
+}
+
+.assembleOnemore{
+  height: 40px;
+  width: 90px;
+  box-sizing: border-box;
+  line-height: 40px;
+  margin-top:auto;
+  margin-bottom: auto;
+}
+
+.assembleRule{
+  height: 40px;
+  width: 200px;
+  box-sizing: border-box;
+  line-height: 40px;
+  margin-top:auto;
+  margin-bottom: auto;
+}
+
+.assembleDate{
+  height: 40px;
+  width: 150px;
+  box-sizing: border-box;
+  line-height: 40px;
+  margin-top:auto;
+  margin-bottom: auto;
+}
+
+.assembleCreater{
+  height: 40px;
+  width: 150px;
+  box-sizing: border-box;
+  line-height: 40px;
+  margin-top:auto;
+  margin-bottom: auto;
+}
+
+
+.shiftAssemble{
+  width: 100%;
+  height: 80px;
+  border-bottom: 1px solid gray;
+  /* background: red; */
+  display:flex;
+}
+
+.shiftAssemble .material-icons{
+  font-size: 35px;
+  margin-top:auto;
+  margin-bottom: auto;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.autoOpenContainer{
+  display:flex;
+}
+
+.shiftAssemble .date{
+  width: 250px;
+  height: 20px;
+  margin-top: 15px;
+  overflow:hidden;
+}
+
+.shiftAssemble .auto{
+  background:yellowgreen;
+  border-radius:8px;
+  padding: 4px;
+  box-sizing: border-box;
+}
+
+.shiftAssemble .open{
+  background:white;
+  border-radius:8px;
+  padding: 4px;
+  margin-left: 4px;
+  border: 2px solid tomato;
+  box-sizing: border-box;
+}
+
+.shiftAssemble .during{
+  width:220px;
+  height: 80px;
+  line-height: 80px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.shiftAssemble .yesOrNo{
+  width: 90px;
+  height:80px;
+  line-height: 80px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.shiftAssemble .rule{
+  width:200px;
+  height: 80px;
+  line-height: 80px;
+  overflow:hidden;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.shiftAssemble .creat{
+  width:150px;
+  height: 80px;
+  font-size: 12px;
+  line-height: 80px;
+  font-weight: bold;
+}
+
+.shiftAssemble .creater{
+  width:150px;
+  height: 80px;
+  line-height: 80px;
+  font-weight: bold;
+  font-size: 14px;
+  overflow:hidden;
+}
